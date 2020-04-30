@@ -1,0 +1,19 @@
+{
+    "country": "China",
+    "cases": {
+        "new": "+351",
+        "active": 116,
+        "critical": 89,
+        "recovered": 77944,
+        "total": 82692
+    },
+    "deaths": {
+        "new": "+1290",
+        "total": 4632
+    },
+    "tests": {
+        "total": null
+    },
+    "day": "2020-04-17",
+    "time": "2020-04-17T22:15:04+00:00"
+}

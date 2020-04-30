@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background: #282c34;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .App-logo {
@@ -13,7 +16,7 @@
   }
 }
 
-.App-header {
+.AppContainer {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +25,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  box-shadow: -4px -4px 10px 0 #3f4146e8, 
+              4px 4px 10px 0 #161925e8;
+  padding-bottom: 2rem;
+  border-radius: 5px;
 }
 
 .App-link {
