@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Card from "./Components/Card/Card";
 import { Row, Col, Container, Spinner } from "reactstrap";
 import axios from 'axios'
+import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
   
@@ -41,11 +42,7 @@ function App() {
   return (
     <div className="App">
       <Container className="AppContainer">
-        <Row>
-            <Col md={12}>
-                <h1>COVID-19 Statistics</h1>
-            </Col>
-        </Row>
+        <NavBar />
         <Row>
           {
             isLoading 
