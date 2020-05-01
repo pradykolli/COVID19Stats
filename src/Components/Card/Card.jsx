@@ -23,15 +23,15 @@ function Card(props) {
       <div className="cardBody">
         <div>
           <span>Cases:</span>
-          <span>{totalCases}</span>
+          <span>{totalCases.toLocaleString()}</span>
         </div>
         <div>
           <span>Active Cases:</span>
-          <span>{activeCases}</span>
+          <span>{activeCases.toLocaleString()}</span>
         </div>
         <div>
           <span>Deaths:</span>
-          <span>{totalDeaths}</span>
+          <span>{totalDeaths.toLocaleString()}</span>
         </div>
         <div>
           <span>New Cases:</span>
@@ -43,7 +43,7 @@ function Card(props) {
         </div>
         <div>
           <span>Total Tests:</span>
-          <span>{totalTestsDone ? totalTestsDone : '-'}</span>
+          <span>{totalTestsDone ? totalTestsDone.toLocaleString() : '-'}</span>
         </div>
         <div className="Charts">
             <CountryChart 
